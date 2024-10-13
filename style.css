@@ -1,0 +1,321 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar .container ul{
+    display: flex;
+    list-style: none;
+    padding-right: 1rem;
+}
+#navbar .container ul li{
+    margin-left: 10px;
+   
+}
+
+#navbar .container h1{
+    text-transform: uppercase;
+    padding-left: 1rem;
+   
+}
+#navbar .container ul li a{
+    padding: 20px;
+    display: block;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+   background: #555;
+   color: orange;
+}
+#navbar {
+    background: #333;
+}
+
+/*section*/
+
+#showcase .container{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background: url(https://ricetta.it/Uploads/Imgs/pane_fatto-in-casa_senza-impasto.jpg) no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+
+}
+#showcase .container h1{
+    color: #fff;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.color-primary{
+    color: orange;
+}
+#showcase .container p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-bottom: 2rem;
+
+}
+
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background: #333;
+    padding: 13px 18px;
+    border: none;
+}
+.btn:hover{
+    background: orange;
+    color: #333;
+}
+
+
+/*section 2*/
+ 
+
+
+#showcase2 .container{
+    display: flex;
+    height: 350px;
+    
+
+}
+
+#showcase2 .container .image{
+    background: url(https://wips.plug.it/cips/buonissimo.org/cms/2013/01/Pane.jpg) no-repeat center center/cover;
+     flex:1
+}
+
+#showcase2 .container .section-text{
+    display: flex;
+    flex: 1;
+    background: #333;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.btn-light{
+    background: #bbb;
+    color: #333;
+}
+
+
+.text-center{
+    text-align: center;
+
+}
+
+#showcase2 .container .section-text h1{
+    padding-bottom: 20px;
+}
+
+#showcase2 .container .section-text p{
+    padding-bottom: 20px;
+}
+
+#showcase2 .container .section-text h1 .text-primary{
+    color: orange;
+    
+}
+
+
+/*section 3*/
+#showcase3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.box-white{
+    background: #fff;
+}
+
+.box-orange{
+   background: orange;
+}
+
+.box{
+    flex: 1;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+#showcase3 i{
+    padding-bottom: 20px;
+}
+
+#showcase3 h3{
+    padding-bottom: 30px;
+}
+
+.fine{
+    background: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+
+}
+
+
+
+/*about info*/
+
+#about-info .container{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    
+}
+
+#about-info img{
+    width: 60%;
+    border-radius: 50%;
+    margin: auto;
+   
+
+}
+
+#about-info .info-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding: 3rem;
+}
+#about-info .info-left h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+#about-info .info-left p{
+    width: 80%;
+    padding-bottom: 1.5rem;
+}
+
+#about-info .info-right{
+    flex: 1;
+   display: flex;
+  
+}
+
+/*testimoni*/
+
+#testimonials{
+    height: 500px;
+    padding-top: 100px;
+    background: url(http://www.laversionedienrica.it/wp-content/uploads/2019/08/POF_S01_SH08_01-PANE-BIOVE_IMGL3274-1080x720.jpg) no-repeat center center/cover;
+}
+
+#testimonials .testimonial img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#testimonials h2{
+    text-align: center;
+    padding-bottom: 3rem;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+#testimonials p{
+    width: 80%;
+}
+
+#testimonials .testimonial{
+    background: orange;
+    padding: 1.2rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+/*contatti*/
+
+#contact-form h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+#contact-form p{
+    padding-bottom: 1rem;
+}
+
+#contact-form button{
+    margin-top: 2rem;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 35%;
+    padding: 10px;
+    border: 1px solid #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-form label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+#contact-form textarea{
+    height: 180px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: orange
+}
+
+#contact-form{
+    padding: 2rem 5rem;
+}
+
+
+/*contact-info*/
+
+#contact-info .container{
+    display:flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background: #222;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+#contact-info i,
+#contact-info h3{
+    margin-bottom: 1rem;
+}
